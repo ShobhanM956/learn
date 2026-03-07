@@ -3,7 +3,6 @@ package com.shobhan956.learn;
 public class LaunchInherot2 {
 	public static void main(String[] args) {
 		C c=new C();
-		c.show();
 	}
 }
 
@@ -12,12 +11,12 @@ class A{
 }
 class B extends A{
 	int b=10;
-	public void show() {
+	B() {
 		System.out.println(a);
 	}
 }
 class C extends B{
-	public void show() {
+	C() {
 		System.out.println(b);
 	}
 }
