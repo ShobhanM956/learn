@@ -1,6 +1,6 @@
 package com.shobhan956.learn;
 
-public class LaunchInherot2 {
+public class LaunchInherit2 {
 	public static void main(String[] args) {
 		C c=new C();
 	}
